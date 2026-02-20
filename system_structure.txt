@@ -1,0 +1,14 @@
+AgroNexus-Prototype/
+├── assets/
+│   ├── css/           # Tailwind output
+│   └── js/            # Chart.js for the graphs
+├── includes/
+│   ├── DataGenerator.php  # THE CORE: Generates the "fake" live data
+│   ├── header.php         # Tailwind Navigation
+│   └── sidebar.php        # Navigation for the 6 modules
+├── modules/
+│   ├── macro_econ.php     # ARIMA/VAR Forecast Demo
+│   ├── remote_sensing.php # Satellite NDVI/EVI Demo
+│   ├── risk_analysis.php  # Monte Carlo Simulation Demo
+│   └── field_health.php   # AI Pest Diagnosis Demo
+└── index.php              # Main Overview Dashboard
